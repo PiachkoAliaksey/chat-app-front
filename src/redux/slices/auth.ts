@@ -18,7 +18,7 @@ interface IInitialState {
 
 
 
-const REACT_APP_API_URL = 'http://localhost:4444';
+const REACT_APP_API_URL = 'https://chat-app-server-l40c.onrender.com';
 
 const instance = axios.create({
   baseURL: REACT_APP_API_URL

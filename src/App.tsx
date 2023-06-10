@@ -19,7 +19,7 @@ import { Login } from "./pages/Login/Login";
 import { ChatNewUser } from './pages/ChatNewUser/ChatNewUser';
 import { fetchAuthMe } from './redux/slices/auth';
 import { io } from 'socket.io-client'
-const socket = io('http://localhost:4444')
+const socket = io('https://chat-app-server-l40c.onrender.com')
 
 import './sass/style.scss';
 

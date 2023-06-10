@@ -13,7 +13,7 @@ export const SkeletonUsers = () => {
 
   return (
     <>
-      {([...new Array(5)].map((user, index) => (<ListItemButton >
+      {([...new Array(5)].map((user, index) => (<ListItemButton key={index} >
         <ListItemIcon>
           <Skeleton variant="circular" width={40} height={40} />
         </ListItemIcon>

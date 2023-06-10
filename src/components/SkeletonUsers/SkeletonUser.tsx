@@ -11,7 +11,7 @@ import Avatar from '@mui/material/Avatar';
 export const SkeletonUser = () => {
 
   return (
-      <ListItemButton >
+      <ListItemButton key={'ListItemButton'} >
         <ListItemIcon>
           <Skeleton variant="circular" width={40} height={40} />
         </ListItemIcon>
